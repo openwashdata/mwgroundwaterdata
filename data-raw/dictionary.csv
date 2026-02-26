@@ -1,0 +1,10 @@
+directory,file_name,variable_name,variable_type,description
+data/,mwgroundwaterdata.rda,date,character,Date when data was captured
+data/,mwgroundwaterdata.rda,waterpoint_name,character,The name of the water point
+data/,mwgroundwaterdata.rda,district,character,Administrative district the water point is located
+data/,mwgroundwaterdata.rda,latitude,numeric,GPS latitude coordinate
+data/,mwgroundwaterdata.rda,longitude,numeric,GPS longitude coordinate
+data/,mwgroundwaterdata.rda,source,character,The device that captured the information
+data/,mwgroundwaterdata.rda,water_level,numeric,Water level of the water
+data/,mwgroundwaterdata.rda,temperature,numeric,Temperature of the data
+data/,mwgroundwaterdata.rda,conductivity,numeric,Electical conductivity of the water
