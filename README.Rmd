@@ -29,6 +29,8 @@ knitr::opts_chunk$set(
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+[![DOI](https://zenodo.org/badge/1167601334.svg)](https://doi.org/10.5281/zenodo.18798409)
+
 <!-- badges: end -->
 
 This dataset contains groundwater monitoring data collected from
@@ -178,7 +180,11 @@ read_csv("data-raw/dictionary.csv") |>
 
 ## Data
 
-The package provides access to This dataset contains groundwater monitoring data collected from monitoring wells across 10 districts in Malawi between 2024 and 2025. The data were captured using automated data loggers installed in monitoring wells and were collected and managed by BASEflow.
+The package provides access to This dataset contains groundwater
+monitoring data collected from monitoring wells across 10 districts in
+Malawi between 2024 and 2025. The data were captured using automated
+data loggers installed in monitoring wells and were collected and
+managed by BASEflow.
 
 ```{r}
 library(mwgroundwaterdata)
