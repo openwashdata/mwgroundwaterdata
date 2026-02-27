@@ -1,2 +1,9 @@
 ^mwgroundwaterdata\.Rproj$
 ^\.Rproj\.user$
+^data-raw$
+^LICENSE\.md$
+^data/metadata$
+^README\.Rmd$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

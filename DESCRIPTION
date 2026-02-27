@@ -1,11 +1,19 @@
 Package: mwgroundwaterdata
-Title: What the Package Does (One Line, Title Case)
+Title: Malawi Groundwater Monitoring Time-Series Dataset (2024–2025)
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Emmanuel", "Mhango", , "emmanuellmhango@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-3197-6244"))
+Description: This dataset contains groundwater monitoring data collected from monitoring wells across 10 districts in Malawi between 2024 and 2025. The data were captured using automated data loggers installed in monitoring wells and were collected and managed by BASEflow. The dataset provides time-series measurements of key groundwater parameters, enabling detailed analysis of aquifer behavior across multiple geographic locations.
+License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Language: en-GB
+Config/Needs/website: rmarkdown
+Date: 2026-02-26
+URL: https://github.com/openwashdata/mwgroundwaterdata
+BugReports: https://github.com/openwashdata/mwgroundwaterdata/issues

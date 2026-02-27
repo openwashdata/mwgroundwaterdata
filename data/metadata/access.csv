@@ -1,0 +1,3 @@
+fileName,name,contentUrl,encodingFormat
+mwgroundwatta.rda.csv,mwgroundwatta.rda,https://raw.githubusercontent.com/openwashdata/mwgroundwatta.rda/main/inst/extdata/mwgroundwatta.rda.csv,csv
+mwgroundwatta.rda.xlsx,mwgroundwatta.rda,https://raw.githubusercontent.com/openwashdata/mwgroundwatta.rda/main/inst/extdata/mwgroundwatta.rda.xlsx,ooxml
