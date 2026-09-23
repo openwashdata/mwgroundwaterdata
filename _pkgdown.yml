@@ -1,5 +1,5 @@
 
-url: https://github.com/openwashdata/mwgroundwaterdata
+url: https://openwashdata.github.io/mwgroundwaterdata/
 template:
   bootstrap: 5
   includes:

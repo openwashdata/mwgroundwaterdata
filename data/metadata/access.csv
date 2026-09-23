@@ -1,3 +1,3 @@
 fileName,name,contentUrl,encodingFormat
-mwgroundwatta.rda.csv,mwgroundwatta.rda,https://raw.githubusercontent.com/openwashdata/mwgroundwatta.rda/main/inst/extdata/mwgroundwatta.rda.csv,csv
-mwgroundwatta.rda.xlsx,mwgroundwatta.rda,https://raw.githubusercontent.com/openwashdata/mwgroundwatta.rda/main/inst/extdata/mwgroundwatta.rda.xlsx,ooxml
+mwgroundwaterdata.csv,mwgroundwaterdata,https://raw.githubusercontent.com/openwashdata/mwgroundwaterdata/main/inst/extdata/mwgroundwaterdata.csv,csv
+mwgroundwaterdata.xlsx,mwgroundwaterdata,https://raw.githubusercontent.com/openwashdata/mwgroundwaterdata/main/inst/extdata/mwgroundwaterdata.xlsx,ooxml

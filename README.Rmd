@@ -29,10 +29,14 @@ knitr::opts_chunk$set(
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+[![DOI](https://zenodo.org/badge/1167601334.svg)](https://doi.org/10.5281/zenodo.18798409)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18798409.svg)](https://zenodo.org/doi/10.5281/zenodo.18798409)
+[![R-CMD-check](https://github.com/openwashdata/mwgroundwaterdata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/mwgroundwaterdata/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This dataset contains groundwater monitoring data collected from
-monitoring wells across 10 districts in Malawi between 2024 and 2025.
+monitoring wells across 9 districts in Malawi between 2024 and 2025.
 The data were captured using automated data loggers installed in
 monitoring wells and were collected and managed by BASEflow.
 
@@ -166,7 +170,7 @@ extdata_path <- "https://github.com/openwashdata/mwgroundwaterdata/raw/main/inst
 
 read_csv("data-raw/dictionary.csv") |> 
   distinct(file_name) |> 
-  dplyr::mutate(file_name = str_remove(file_name, ".rda")) |> 
+  dplyr::mutate(file_name = str_remove(file_name, fixed(".rda"))) |> 
   dplyr::rename(dataset = file_name) |> 
   mutate(
     CSV = paste0("[Download CSV](", extdata_path, dataset, ".csv)"),
@@ -178,7 +182,11 @@ read_csv("data-raw/dictionary.csv") |>
 
 ## Data
 
-The package provides access to This dataset contains groundwater monitoring data collected from monitoring wells across 10 districts in Malawi between 2024 and 2025. The data were captured using automated data loggers installed in monitoring wells and were collected and managed by BASEflow.
+The package provides access to This dataset contains groundwater
+monitoring data collected from monitoring wells across 9 districts in
+Malawi between 2024 and 2025. The data were captured using automated
+data loggers installed in monitoring wells and were collected and
+managed by BASEflow.
 
 ```{r}
 library(mwgroundwaterdata)
@@ -209,7 +217,7 @@ readr::read_csv("data-raw/dictionary.csv") |>
 
 ## Example
 
-```{r}
+```{r, eval=FALSE}
 library(mwgroundwaterdata)
 
 # Visualization: Geospatial Map
@@ -241,10 +249,14 @@ leaflet(well_summary) %>%
 
 ```
 
+```{r, echo=FALSE}
+knitr::include_graphics("man/figures/README-unnamed-chunk-7-1.png")
+```
+
 ## License
 
 Data are available as
-[CC-BY](https://github.com/openwashdata/%7B%7B%7Bpackagename%7D%7D%7D/blob/main/LICENSE.md).
+[CC-BY](https://github.com/openwashdata/mwgroundwaterdata/blob/main/LICENSE.md).
 
 ## Citation
 

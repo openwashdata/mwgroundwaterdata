@@ -1,6 +1,6 @@
 #' mwgroundwaterdata: Malawi Groundwater Monitoring Time-Series Dataset (2024–2025)
 #'
-#' This dataset contains groundwater monitoring data collected from monitoring wells across 10 districts in Malawi between 2024 and 2025. The data were captured using automated data loggers installed in monitoring wells and were collected and managed by BASEflow.
+#' This dataset contains groundwater monitoring data collected from monitoring wells across 9 districts in Malawi between 2024 and 2025. The data were captured using automated data loggers installed in monitoring wells and were collected and managed by BASEflow.
 #' The dataset provides time-series measurements of key groundwater parameters, enabling detailed analysis of aquifer behavior across multiple geographic locations.
 #'
 #' @format A tibble with 1415 rows and 9 variables
