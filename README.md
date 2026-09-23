@@ -15,7 +15,7 @@
 <!-- badges: end -->
 
 This dataset contains groundwater monitoring data collected from
-monitoring wells across 10 districts in Malawi between 2024 and 2025.
+monitoring wells across 9 districts in Malawi between 2024 and 2025.
 The data were captured using automated data loggers installed in
 monitoring wells and were collected and managed by BASEflow.
 
@@ -148,7 +148,7 @@ file from the table below.
 ## Data
 
 The package provides access to This dataset contains groundwater
-monitoring data collected from monitoring wells across 10 districts in
+monitoring data collected from monitoring wells across 9 districts in
 Malawi between 2024 and 2025. The data were captured using automated
 data loggers installed in monitoring wells and were collected and
 managed by BASEflow.
@@ -485,7 +485,7 @@ citation("mwgroundwaterdata")
 #>     year = {2026},
 #>     doi = {10.5281/zenodo.18798409},
 #>     url = {https://github.com/openwashdata/mwgroundwaterdata},
-#>     abstract = {This dataset contains groundwater monitoring data collected from monitoring wells across 10 districts in Malawi between 2024 and 2025. The data were captured using automated data loggers installed in monitoring wells and were collected and managed by BASEflow. The dataset provides time-series measurements of key groundwater parameters, enabling detailed analysis of aquifer behavior across multiple geographic locations.},
+#>     abstract = {This dataset contains groundwater monitoring data collected from monitoring wells across 9 districts in Malawi between 2024 and 2025. The data were captured using automated data loggers installed in monitoring wells and were collected and managed by BASEflow. The dataset provides time-series measurements of key groundwater parameters, enabling detailed analysis of aquifer behavior across multiple geographic locations.},
 #>     keywords = {open data,washdata,groundwater,groundwater monitoring,water level,water quality,Malawi,sanitation,wash,water,watermonitoring},
 #>     version = {0.0.2},
 #>   }

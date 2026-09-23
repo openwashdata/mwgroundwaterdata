@@ -36,7 +36,7 @@ knitr::opts_chunk$set(
 <!-- badges: end -->
 
 This dataset contains groundwater monitoring data collected from
-monitoring wells across 10 districts in Malawi between 2024 and 2025.
+monitoring wells across 9 districts in Malawi between 2024 and 2025.
 The data were captured using automated data loggers installed in
 monitoring wells and were collected and managed by BASEflow.
 
@@ -183,7 +183,7 @@ read_csv("data-raw/dictionary.csv") |>
 ## Data
 
 The package provides access to This dataset contains groundwater
-monitoring data collected from monitoring wells across 10 districts in
+monitoring data collected from monitoring wells across 9 districts in
 Malawi between 2024 and 2025. The data were captured using automated
 data loggers installed in monitoring wells and were collected and
 managed by BASEflow.
