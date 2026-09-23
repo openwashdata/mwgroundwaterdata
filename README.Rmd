@@ -32,6 +32,7 @@ knitr::opts_chunk$set(
 [![DOI](https://zenodo.org/badge/1167601334.svg)](https://doi.org/10.5281/zenodo.18798409)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18798409.svg)](https://zenodo.org/doi/10.5281/zenodo.18798409)
+[![R-CMD-check](https://github.com/openwashdata/mwgroundwaterdata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/mwgroundwaterdata/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This dataset contains groundwater monitoring data collected from
@@ -216,7 +217,7 @@ readr::read_csv("data-raw/dictionary.csv") |>
 
 ## Example
 
-```{r}
+```{r, eval=FALSE}
 library(mwgroundwaterdata)
 
 # Visualization: Geospatial Map
@@ -246,6 +247,10 @@ leaflet(well_summary) %>%
             values = well_summary$avg_water_level,
             title = "Avg Water Level (m)")
 
+```
+
+```{r, echo=FALSE}
+knitr::include_graphics("man/figures/README-unnamed-chunk-7-1.png")
 ```
 
 ## License
