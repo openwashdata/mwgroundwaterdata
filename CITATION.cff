@@ -8,7 +8,7 @@ message: 'To cite package "mwgroundwaterdata" in publications use:'
 type: dataset
 license: CC-BY-4.0
 title: 'mwgroundwaterdata: Malawi Groundwater Monitoring Time-Series Dataset (2024–2025)'
-version: 0.0.0.9000
+version: 0.0.2
 doi: 10.5281/zenodo.18798409
 abstract: This dataset contains groundwater monitoring data collected from monitoring
   wells across 10 districts in Malawi between 2024 and 2025. The data were captured

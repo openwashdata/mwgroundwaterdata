@@ -1,6 +1,6 @@
 Package: mwgroundwaterdata
 Title: Malawi Groundwater Monitoring Time-Series Dataset (2024–2025)
-Version: 0.0.0.9000
+Version: 0.0.2
 Authors@R: 
     person("Emmanuel", "Mhango", , "emmanuellmhango@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-3197-6244"))
