@@ -170,7 +170,7 @@ extdata_path <- "https://github.com/openwashdata/mwgroundwaterdata/raw/main/inst
 
 read_csv("data-raw/dictionary.csv") |> 
   distinct(file_name) |> 
-  dplyr::mutate(file_name = str_remove(file_name, ".rda")) |> 
+  dplyr::mutate(file_name = str_remove(file_name, fixed(".rda"))) |> 
   dplyr::rename(dataset = file_name) |> 
   mutate(
     CSV = paste0("[Download CSV](", extdata_path, dataset, ".csv)"),
@@ -256,7 +256,7 @@ knitr::include_graphics("man/figures/README-unnamed-chunk-7-1.png")
 ## License
 
 Data are available as
-[CC-BY](https://github.com/openwashdata/%7B%7B%7Bpackagename%7D%7D%7D/blob/main/LICENSE.md).
+[CC-BY](https://github.com/openwashdata/mwgroundwaterdata/blob/main/LICENSE.md).
 
 ## Citation
 

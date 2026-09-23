@@ -1,7 +1,7 @@
 {
   "@context": "https://openwashdata.org/",
   "@type": "Dataset",
-  "name": "mwgroundwatta.rda",
+  "name": "mwgroundwaterdata",
   "description": "This dataset contains groundwater monitoring data collected from monitoring wells across 10 districts in Malawi between 2024 and 2025. The data were captured using automated data loggers installed in monitoring wells and were collected and managed by BASEflow. The dataset provides time-series measurements of key groundwater parameters, enabling detailed analysis of aquifer behavior across multiple geographic locations.",
   "publisher": {
     "@type": "Organization",
@@ -13,8 +13,8 @@
   "keywords": null,
   "distribution": {
     "@type": "DataDownload",
-    "url": "https://raw.githubusercontent.com/openwashdata/mwgroundwatta.rda/main/inst/extdata/mwgroundwatta.rda.csv",
-    "contentUrl": "https://raw.githubusercontent.com/openwashdata/mwgroundwatta.rda/main/inst/extdata/mwgroundwatta.rda.csv",
+    "url": "https://raw.githubusercontent.com/openwashdata/mwgroundwaterdata/main/inst/extdata/mwgroundwaterdata.csv",
+    "contentUrl": "https://raw.githubusercontent.com/openwashdata/mwgroundwaterdata/main/inst/extdata/mwgroundwaterdata.csv",
     "encodingFormat": "text/csv"
   },
   "encodingFormat": "CSV",
