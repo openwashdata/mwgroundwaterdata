@@ -5,6 +5,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18798409.svg)](https://zenodo.org/doi/10.5281/zenodo.18798409)
 [![R-CMD-check](https://github.com/openwashdata/mwgroundwaterdata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/mwgroundwaterdata/actions/workflows/R-CMD-check.yaml)
 
+A data package published by [openwashdata](https://openwashdata.org).
+
 This dataset contains groundwater monitoring data collected from
 monitoring wells across 9 districts in Malawi between 2024 and 2025. The
 data were captured using automated data loggers installed in monitoring
