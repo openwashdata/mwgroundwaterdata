@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Malawi Groundwater Monitoring Time-Series Dataset (2024–2025)
+# Malawi Groundwater Monitoring Time-Series Dataset (2024–2025) <a href="https://openwashdata.org"><img src="man/figures/logo.png" align="right" width="120" alt="openwashdata" /></a>
 
 <!-- badges: start -->
 
@@ -34,8 +34,6 @@ knitr::opts_chunk$set(
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18798409.svg)](https://zenodo.org/doi/10.5281/zenodo.18798409)
 [![R-CMD-check](https://github.com/openwashdata/mwgroundwaterdata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/mwgroundwaterdata/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
-
-A data package published by [openwashdata](https://openwashdata.org).
 
 This dataset contains groundwater monitoring data collected from
 monitoring wells across 9 districts in Malawi between 2024 and 2025.
@@ -261,6 +259,8 @@ Data are available as
 [CC-BY](https://github.com/openwashdata/mwgroundwaterdata/blob/main/LICENSE.md).
 
 ## Citation
+
+Published by openwashdata, <https://openwashdata.org>.
 
 Please cite this package using:
 
